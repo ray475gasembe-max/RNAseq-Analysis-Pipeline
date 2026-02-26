@@ -73,7 +73,7 @@ Reproducible research workflow design
 RNAseq-Analysis-Pipeline/
 │
 ├── data/
-│   └── example_counts.csv
+│   └── transcript_TPM_matrix.csv
 │
 ├── scripts/
 │   └── rna_seq_analysis.R
@@ -87,7 +87,7 @@ RNAseq-Analysis-Pipeline/
 ├── workflow_diagram.png
 └── README.md
 
-📊 Example Outputs
+📊 Outputs
 Volcano Plot
 
 Visualizes significantly differentially expressed genes.
@@ -100,7 +100,7 @@ Displays gene expression patterns across samples.
 
 🚀 How to Run the Pipeline
 1️⃣ Clone repository
-git clone https://github.com/yourusername/RNAseq-Analysis-Pipeline.git
+git clone https://github.com/ray475gasembe-max/RNAseq-Analysis-Pipeline.git
 cd RNAseq-Analysis-Pipeline
 2️⃣ Install required R packages
 install.packages(c("tidyverse","pheatmap"))
@@ -113,7 +113,7 @@ Results and figures will be saved in the results/ and figures/ folders.
 
 A demo dataset is included:
 
-data/example_counts.csv
+data/transcript_TPM_matrix.csv
 
 You may replace this with your own RNA-seq count matrix.
 
@@ -139,6 +139,8 @@ Cancer genomics
 Systems biology
 
 Computational biology
+
+
 
 👨‍🔬 Author
 
