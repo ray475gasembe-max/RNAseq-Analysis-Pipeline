@@ -12,6 +12,7 @@ Reproducible RNA-seq analysis pipeline for differential expression, biomarker di
 
 This repository contains a reproducible RNA-seq analysis pipeline designed to process raw sequencing count data and generate biologically interpretable results.
 
+
 The workflow performs:
 
 ✔ Quality assessment
@@ -20,7 +21,9 @@ The workflow performs:
 ✔ Statistical filtering
 ✔ Visualization of expression patterns
 
+
 This pipeline supports biomedical research, genomics studies, and precision medicine investigations.
+
 
 🎯 Scientific Applications
 
@@ -37,6 +40,7 @@ Drug target identification
 Functional genomics analysis
 
 Precision medicine research
+
 
 ⚙️ Pipeline Workflow
 
@@ -58,6 +62,7 @@ Visualization & Interpretation
 
 📌 Workflow diagram available:
 
+
 🧰 Tools & Technologies
 
 R programming
@@ -67,6 +72,7 @@ DESeq2 / edgeR concepts
 ggplot2 visualization
 
 Reproducible research workflow design
+
 
 📁 Repository Structure
 
@@ -87,6 +93,7 @@ RNAseq-Analysis-Pipeline/
 ├── workflow_diagram.png
 └── README.md
 
+
 📊 Outputs
 Volcano Plot
 
@@ -98,6 +105,7 @@ Displays gene expression patterns across samples.
 
 (See figures folder)
 
+
 🚀 How to Run the Pipeline
 1️⃣ Clone repository
 git clone https://github.com/ray475gasembe-max/RNAseq-Analysis-Pipeline.git
@@ -107,7 +115,9 @@ install.packages(c("tidyverse","pheatmap"))
 3️⃣ Run the analysis
 source("scripts/rna_seq_analysis.R")
 
+
 Results and figures will be saved in the results/ and figures/ folders.
+
 
 📈 Example Dataset
 
@@ -125,6 +135,7 @@ This repository follows reproducible research principles:
 ✔ Structured outputs
 ✔ Example dataset included
 ✔ Clear workflow documentation
+
 
 🌍 Research & Collaboration
 
