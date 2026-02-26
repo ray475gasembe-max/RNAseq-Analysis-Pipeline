@@ -42,6 +42,7 @@ Precision medicine research
 
 Input → Processing → Biological Insight
 
+
 Raw Counts
    ↓
 Quality Control
@@ -53,6 +54,7 @@ Differential Expression Analysis
 Statistical Filtering
    ↓
 Visualization & Interpretation
+
 
 📌 Workflow diagram available:
 
@@ -67,6 +69,7 @@ ggplot2 visualization
 Reproducible research workflow design
 
 📁 Repository Structure
+
 RNAseq-Analysis-Pipeline/
 │
 ├── data/
@@ -83,6 +86,7 @@ RNAseq-Analysis-Pipeline/
 │
 ├── workflow_diagram.png
 └── README.md
+
 📊 Example Outputs
 Volcano Plot
 
